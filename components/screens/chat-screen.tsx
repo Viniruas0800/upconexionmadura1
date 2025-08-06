@@ -1121,7 +1121,7 @@ const ChatScreen: React.FC<ChatScreenProps> = ({ onNavigate, chatId }) => {
       id: Date.now() + 4,
       sender: "them",
       isVideo: true,
-      videoUrl: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/video%20011-1bQmu9qrLzOTsagrT2cNzoocN84cpM.mp4",
+      videoUrl: "/video-011.mp4",
       hasBeenPlayed: videoMessagePlayed,
       time: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
     }
@@ -1442,7 +1442,7 @@ const ChatScreen: React.FC<ChatScreenProps> = ({ onNavigate, chatId }) => {
       {/* Fullscreen Video Player */}
       <FullscreenVideoPlayer
         isOpen={showFullscreenVideo}
-        videoUrl="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/video%20011-1bQmu9qrLzOTsagrT2cNzoocN84cpM.mp4"
+        videoUrl="/video-011.mp4"
         onClose={() => setShowFullscreenVideo(false)}
         onVideoEnd={handleVideoEnd}
       />
@@ -1497,9 +1497,7 @@ const ChatScreen: React.FC<ChatScreenProps> = ({ onNavigate, chatId }) => {
             >
               <Phone className="h-6 w-6" />
             </Button>
-            <div className="text-green-400 font-bold bg-gradient-to-r from-green-600/20 to-green-500/10 px-3 py-1 rounded-full">
-              {currencyLoaded ? formatCurrency(balance.replace("$", "")) : balance}
-            </div>
+            
           </div>
         </div>
       </div>
@@ -1767,7 +1765,7 @@ const ChatScreen: React.FC<ChatScreenProps> = ({ onNavigate, chatId }) => {
         onClose={handleCallPopupClose}
         profileName={profile.name}
         profileImageUrl={profile.photo}
-        callingSoundUrl="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/calling1-0heH7h3wPikv5omOZDTpSVd1W9ARV4.MP3"
+        callingSoundUrl="/calling1.mp3"
       />
     </div>
   )
