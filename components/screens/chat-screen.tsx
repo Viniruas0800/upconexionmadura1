@@ -1497,7 +1497,9 @@ const ChatScreen: React.FC<ChatScreenProps> = ({ onNavigate, chatId }) => {
             >
               <Phone className="h-6 w-6" />
             </Button>
-            
+            <div className="text-green-400 font-bold bg-gradient-to-r from-green-600/20 to-green-500/10 px-3 py-1 rounded-full">
+              {currencyLoaded ? formatCurrency(balance.replace("$", "")) : balance}
+            </div>
           </div>
         </div>
       </div>
