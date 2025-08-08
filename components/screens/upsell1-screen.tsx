@@ -590,7 +590,7 @@ return (
   <Script src="https://upsell.mundpay.com/script.js" strategy="afterInteractive" />
 
               <div className="text-center mt-4">
-                <p className="text-xs text-gray-500">🔒 Pago seguro procesado por Mundpay • Garantía de 7 días</p>
+                <p className="text-xs text-gray-500">🔒 Pago seguro procesado por MundPay • Garantía de 7 días</p>
               </div>
             </div>
           </div>
