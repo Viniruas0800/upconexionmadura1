@@ -529,14 +529,14 @@ return (
       data-mndpay="01988672-6450-717e-9b28-af610d71b4bc"
       className="mndpay_btn"
     >
-      Sim, eu quero comprar!
+      Desbloquear Con Descuento
     </a>
     <a
       href="javascript:void(0)"
       data-downsell="https://dwnconexionmadura1.vercel.app/"
       className="mndpay_downsell"
     >
-      Não, eu não quero comprar!
+      Dejaré pasar esta oportunidad
     </a>
 
     <style jsx>{`
@@ -590,7 +590,7 @@ return (
   <Script src="https://upsell.mundpay.com/script.js" strategy="afterInteractive" />
 
               <div className="text-center mt-4">
-                <p className="text-xs text-gray-500">🔒 Pago seguro procesado por Hotmart • Garantía de 7 días</p>
+                <p className="text-xs text-gray-500">🔒 Pago seguro procesado por Mundpay • Garantía de 7 días</p>
               </div>
             </div>
           </div>
